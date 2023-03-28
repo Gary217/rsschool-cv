@@ -1,0 +1,1029 @@
+* {
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+    text-decoration: none;
+    /* list-style: none; */
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+}
+
+.section-header {
+    padding-left: 20px;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    /* font-size: 55px; */
+    font-size: 367%;
+    letter-spacing: 12.5px;
+    padding-bottom: 0.2%;
+    padding-top: 6.5%;
+    padding-left: 7%;
+}
+
+.blue {
+    color: lightskyblue;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    /* font-size: 35px; */
+    font-size: 220%;
+    letter-spacing: 6.5px;
+    padding-left: 7%;
+}
+
+h4 {
+    font-size: 147%;
+    letter-spacing: 5.5px;
+    padding-top: 6%;
+    font-weight: bold;
+}
+
+.p-right {
+    /* font-size: 105%; */
+    font-size: 137%;
+    padding-top: 3%;
+    line-height: 173%;
+}
+
+ul.p-right {
+    padding-left: 5%;
+}
+
+body {
+    background-color: #4a6e7d;
+}
+
+.container-body {
+    background-color: #ffffff;
+    /* border: 1px solid #000000; */
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+header {
+    /* border: 1px solid #000000; */
+    height: 280px;
+    background: #ffffff;
+    background: linear-gradient(to right, #ffffff 4%,lightskyblue 4%,lightskyblue 46%,#fffcfc 46%,#fffcfc 46%);
+}
+
+.container-header {
+    border-right: 4px solid lightskyblue;
+    margin-right: 12.2%;
+    height: 86%;
+}
+
+.container-main {
+    height: 2268px;
+    display: flex;
+}
+
+.left {
+    /* border: 1px solid #000000; */
+    width: 46%;
+    background: linear-gradient(to right, #ffffff 8.7%, lightskyblue 8.7%);
+}
+
+.photo {
+    width: 100%;
+    padding-left: 8.8%;
+    /* margin-bottom: -37%; */
+}
+
+.section-left-1 {
+    font-family: 'Poppins', sans-serif;
+    color:#ffffff;
+    padding-left: 16%;
+    width: 94%;
+    padding-bottom: 52%;
+}
+
+.section-title-about {
+    /* font-size: 29px; */
+    font-size: 184%;
+    padding-left: 2%;
+    letter-spacing: 6px;
+    padding-top: 7.5%;
+    font-weight: bold;
+}
+
+.quotes {
+    width: 5%;
+    filter: brightness(0) invert(1);
+    padding-top: 1%;
+}
+
+.p-left {
+    /* font-size: 22px; */
+    font-size: 137%;
+    padding-left: 2%;
+    letter-spacing: 2px;
+    line-height: 122%;
+    padding-bottom: 3%;
+    padding-top: 5%;
+}
+
+blockquote {
+    /* font-size: 22px; */
+    font-size: 137%;
+    letter-spacing: 0.5px;
+    line-height: 122%;
+    background-color: goldenrod;
+    padding: 2% 3% 3% 3%;
+}
+
+.section-left-2 {
+    padding-left: 12%;
+    padding-top: 16.2%;
+}
+
+.container-footer {
+    height: 185px;
+    background: linear-gradient(to bottom, #ffffff 30%,lightskyblue 30%);
+    /* border: 1px solid #000000; */
+}
+
+.icon {
+    filter: brightness(0) invert(1);
+    background-repeat: no-repeat;
+    background-position: left center;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 159%;
+    line-height: 213%;
+    padding-left: 10.5%;
+}
+
+.icon:hover {
+    filter: brightness(0);
+}
+
+.github {
+    background-image: url(./img/skills/github.svg);
+    background-size: 9%;
+}
+
+.telegram {
+    background-image: url(./img/contacts/telegram.svg);
+    background-size: 11.5%;
+}
+
+.discord {
+    background-image: url(./img/contacts/discord.svg);
+    background-size: 9.5%;
+}
+
+.email {
+    background-image: url(./img/contacts/email.svg);
+    background-size: 8%;
+}
+
+.section-title1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 178%;
+    letter-spacing: 6px;
+}
+
+.section-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 178%;
+    letter-spacing: 6px;
+    padding-top: 5%;
+}
+
+.right {
+    width: 54%;
+    border-top: 4px solid lightskyblue;
+    margin-top: 159px;
+}
+
+.section-right {
+    padding-left: 10.5%;
+    padding-right: 13%;
+    padding-top: 9%;
+}
+
+.icon-2 {
+    background-size: 6%;
+    background-repeat: no-repeat;
+    background-position: left center;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 137%;
+    line-height: 220%;
+    padding-left: 9.5%;
+}
+
+.html {
+    background-image: url(./img/skills/html.svg);
+}
+
+.css {
+    background-image: url(./img/skills/css.svg);
+}
+
+.git {
+    background-image: url(./img/skills/github.svg);
+    background-size: 5.5%;
+
+}
+
+.figma {
+    background-image: url(./img/skills/figma.svg);
+}
+
+.js {
+    background-image: url(./img/skills/javascript.svg);
+}
+
+.education {
+    font-size: 105%;
+    line-height: 170%;
+    padding-top: 13%;
+}
+.line {
+    border-top: 5px solid white;
+    width: 47.5%;
+}
+
+.year {
+    display: flex;
+    align-items: center;
+    padding-left: 6%;
+    font-size: 117%;
+    padding-top: 4%;
+    height: 100%;
+    font-weight: bold;
+}
+
+.radius {
+    border-radius: 50% 50% 50% 50%;
+    background-color: #ffffff;
+    width: 47px;
+    height: 47px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0.5%;
+}
+
+.portfolio {
+    overflow: hidden;
+}
+
+.portfolio-bg {
+    width: 594.88px;
+    height: 308px;
+    background-size: 100%;
+    background-image: url(./img/portfolio.png);
+    transition: .5s;
+    display: block;
+    background-repeat: no-repeat;
+}
+
+.portfolio-bg:hover {
+    transform: scale(1.1);
+}
+
+
+/* Highlight */
+
+.portfolio-link {
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+.portfolio-link:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 8em;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: translateX(25em) skewX(58deg);
+    animation: in 0.5s;
+    animation-fill-mode: forwards;
+    box-shadow: -23px 0px 8px 0px rgb(255 255 255 / 30%), 70px -46px 32px 18px rgb(255 255 255 / 30%);
+}
+
+.portfolio-link:hover:before {
+    animation: out 0.5s;
+    animation-fill-mode: forwards;
+} 
+
+@keyframes out{
+    from {
+        transform: translateX(49em) skewX(58deg);
+      
+    }
+    to {
+        transform: translateX(25em) skewX(58deg);
+    }
+}
+@keyframes in{
+    from {
+        transform: translateX(25em) skewX(58deg);
+      
+    }
+    to {
+        transform: translateX(49em) skewX(58deg);
+    }
+}
+
+.courses {
+    padding-top: 8.5%;
+}
+.skills {
+    padding-top: 0%;
+}
+.code {
+    background-color: #1D262D;
+    color:#ffffff;
+    display:flex;
+    /* width: 600px; */
+    margin-top: 2%;
+}
+
+.icon-padding {
+    padding: 3% 0 0 0;
+}
+
+.portfolio-about {
+    background-color: #dfc53b;
+    font-size: 137%;
+    padding: 2% 4% 2% 4%;
+    text-align: left;
+    height: 94px;
+}
+
+.wewe {
+    color:tomato;
+}
+
+.list-style {
+    list-style: none;
+}
+
+/* background: linear-gradient(to right, rgba(255,255,255,1) 8.7%,rgba(29,50,55,1) 8.7%,#8fb3c9 146%); */
+
+.block {
+    width: 77px;
+    height: 77px;
+    background-color: lightskyblue;
+    margin: -21.1% 0% 12.1% 90.2%;
+}
+
+.block-gif {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+@media (max-width: 1366px) {
+
+    h1 {
+        font-size: 341%;
+    }
+
+    h2 {
+        font-size: 200%;
+    }
+
+    .container-main {
+        height: 2232px;
+    }
+
+    .section-left-1 {
+        padding-bottom: 60%;
+    }
+}
+
+
+
+@media (max-width: 1280px) {
+
+    h1 {
+        font-size: 321%;
+        letter-spacing: 11.5px;
+    }
+
+    h2 {
+        font-size: 189%;
+        letter-spacing: 6px;
+    }
+
+    .line {
+        border-top: 4px solid white;
+    }
+
+    .container-header {
+        border-right: 3px solid lightskyblue;
+    }
+
+    .right {
+        border-top: 3px solid lightskyblue;
+        margin-top: 142px;
+    }
+
+    .container-main {
+        height: 2195px;
+    }
+
+    .section-left-1 {
+        padding-bottom: 66%;
+    }
+}
+
+
+
+@media (max-width: 1024px) {
+
+    h1 {
+        font-size: 240%;
+        letter-spacing: 10.5px;
+    }
+
+    h2 {
+        font-size: 146%;
+        letter-spacing: 4.5px;
+    }
+
+    header {
+        height: 190px;
+    }
+
+    .container-header {
+        border-right: 3px solid lightskyblue;
+    }
+
+    .right {
+        margin-top: 114px;
+        border-top: 3px solid lightskyblue;
+    }
+
+    .line {
+        border-top: 4px solid white;
+    }
+
+    .block {
+        width: 65px;
+        height: 65px;
+        margin: -21.4% 0% 12.1% 88.2%;
+    }
+
+    .code {
+        font-size: 90%;
+    }
+
+    code {
+        margin-left: -48px;
+    }
+
+    .portfolio-bg {
+        width: 423.04px;
+        height: 225px;
+    }
+
+    .portfolio-about {
+        font-size: 113%;
+        height: 73px;
+    }
+
+    .container-main {
+        height: 1940px;
+    }
+
+    .container-footer {
+        height: 130px;
+    }
+
+    .section-left-1 {
+        padding-bottom: 66%;
+    }
+
+    .section-left-2 {
+        padding-left: 9%;
+    }
+
+    ul.p-right {
+        padding-left: 6%;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 200%;
+        letter-spacing: 5.5px;
+    }
+
+    h2 {
+        font-size: 120%;
+        letter-spacing: 2px;
+    }
+
+    header {
+        height: 151px;
+    }
+
+    .container-header {
+        border-right: 2px solid lightskyblue;
+    }
+
+    .block {
+        width: 45px;
+        height: 45px;
+        margin: -21% 0% 12.1% 89.2%;
+    }
+
+    .right {
+        margin-top: 85px;
+        border-top: 2px solid lightskyblue;
+    }
+
+    .line {
+        border-top: 3px solid white;
+    }
+
+    .section-title1 {
+        font-size: 140%;
+        letter-spacing: 5.5px;
+    }
+
+    h4 {
+        font-size: 113%;
+        letter-spacing: 5.5px;
+    }
+
+    .p-right {
+        font-size: 105%;
+    }
+
+    .section-title {
+        font-size: 140%;
+        letter-spacing: 5.5px;
+    }
+
+    .icon-2 {
+        font-size: 105%;
+    }
+
+    .code {
+        font-size: 72%;
+    }
+
+    code {
+        margin-left: -51px;
+    }
+
+    .portfolio-bg {
+        width: 317.29px;
+        height: 172px;
+    }
+
+    .portfolio-about {
+        font-size: 99%;
+        height: 86px;
+    }
+
+    .section-title-about {
+        font-size: 141%;
+        letter-spacing: 4px;
+    }
+
+    .p-left {
+        font-size: 105%;
+    }
+
+    blockquote {
+        font-size: 105%;
+        letter-spacing: 0.1px;
+    }
+
+    .section-left-1 {
+        padding-bottom: 75%;
+    }
+
+    .section-left-2 {
+        padding-left: 7%;
+    }
+
+    .icon {
+        font-size: 111%;
+    }
+
+    .container-main {
+        height: 1511px;
+    }
+
+    .container-footer {
+        height: 99px;
+    }
+
+    .year {
+        font-size: 84%;
+    }
+
+    .radius {
+        width: 32px;
+        height: 32px;
+    }
+
+    ul.p-right {
+        padding-left: 6.6%;
+    }
+}
+
+
+
+@media (max-width: 425px) {
+
+    h1 {
+        font-size: 126%;
+        letter-spacing: 2px;
+        padding-left: 3%;
+    }
+
+    h2 {
+        font-size: 77%;
+        letter-spacing: 0.5px;
+        padding-left: 3%;
+    }
+
+    header {
+        height: 88px;
+    }
+
+    .left {
+        width: 45.99%;
+    }
+
+    .block {
+        width: 30px;
+        height: 30px;
+        margin: -21.2% 0% 12.1% 87.3%;
+    }
+
+    .right {
+        margin-top: 47px;
+    }
+
+    .line {
+        border-top: 2px solid white;
+    }
+
+    .section-title1 {
+        font-size: 91%;
+        letter-spacing: 2px;
+    }
+
+    h4 {
+        font-size: 75%;
+        letter-spacing: 1.5px;
+    }
+
+    .p-right {
+        font-size: 70%;
+    }
+
+    .section-title {
+        font-size: 91%;
+        letter-spacing: 2px;
+    }
+
+    .icon-2 {
+        font-size: 70%;
+    }
+
+    .section-right {
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+    }
+
+    .code {
+        font-size: 45%;
+    }
+
+    code {
+        margin-left: -34px;
+    }
+
+    .portfolio-bg {
+        width: 195.1px;
+        height: 105px;
+    }
+
+    .portfolio-about {
+        font-size: 66%;
+        height: 56px;
+    }
+
+    .section-title-about {
+        font-size: 91%;
+        letter-spacing: 2px;
+        padding-left: 0%;
+    }
+
+    .p-left {
+        font-size: 70%;
+        padding-left: 0%;
+        letter-spacing: 1px;
+    }
+
+    blockquote {
+        font-size: 70%;
+    }
+
+    .section-left-1 {
+        padding-bottom: 92.5%;
+    }
+
+    .section-left-2 {
+        padding-left: 0%;
+        margin-left: -4%;
+    }
+
+    .icon {
+        font-size: 72%;
+    }
+
+    .container-main {
+        height: 972px;
+    }
+
+    .container-footer {
+        height: 51px;
+    }
+
+    .year {
+        font-size: 54%;
+    }
+
+    .radius {
+        width: 19px;
+        height: 19px;
+    }
+
+    ul.p-right {
+        padding-left: 8.6%;
+    }
+}
+
+
+
+@media (max-width: 375px) {
+
+    h1 {
+        font-size: 115%;
+        letter-spacing: 1.5px;
+        padding-left: 2%;
+    }
+
+    h2 {
+        font-size: 70%;
+        letter-spacing: 0.5px;
+        padding-left: 2%;
+    }
+
+    header {
+        height: 78px;    
+    }
+
+    .container-header {
+        border-right: 1px solid lightskyblue;
+    }
+
+    .block {
+        width: 23px;
+        height: 23px;
+        margin: -21.2% 0% 12.1% 88.5%;
+    }
+
+    .right {
+        margin-top: 42px;
+        border-top: 1px solid lightskyblue;
+    }
+
+    .line {
+        border-top: 1px solid white;
+    }
+
+    .code {
+        font-size: 40%;
+    }
+
+    code {
+        margin-left: -31px;
+    }
+
+    .portfolio-bg {
+        width: 172.14px;
+        height: 93px;
+    }
+
+    .portfolio-about {
+        font-size: 58.3%;
+        height: 50px;
+    }
+
+    .section-left-1 {
+        padding-bottom: 77%;
+    }
+
+    .section-left-2 {
+        margin-left: -7%;
+    }
+
+    .icon {
+        font-size: 66%;
+    }
+
+    .container-main {
+        height: 903px;
+    }
+
+    ul.p-right {
+        padding-left: 10%;
+    }
+}
+
+
+
+@media (max-width: 360px) {
+
+    h1 {
+        font-size: 110.1%;
+        padding-left: 1.5%;
+    }
+
+    h2 {
+        font-size: 68%;
+        padding-left: 1.5%;
+    }
+
+    .left {
+        width: 45.97%;
+    }
+
+    .right {
+        margin-top: 40px;
+    }
+
+    .code {
+        font-size: 38%;
+    }
+
+    code {
+        margin-left: -29px;
+    }
+
+    .portfolio-bg {
+        width: 165.24px;
+        height: 89px;
+    }
+
+    .portfolio-about {
+        font-size: 56%;
+        height: 45px;
+    }
+
+    .section-left-2 {
+        margin-left: -9%;
+    }
+
+    .container-main {
+        height: 899px;
+    }
+}
+
+
+
+@media (max-width: 320px) {
+
+    h1 {
+        font-size: 101%;
+        letter-spacing: 1px;
+        padding-left: 1%;
+    }
+
+    h2 {
+        font-size: 62%;
+        letter-spacing: 0.1px;
+        padding-left: 1%;
+    }
+
+    header {
+        height: 69px;
+    }
+
+    .block {
+        width: 21px;
+        height: 21px;
+        margin: -21.2% 0% 12.1% 87.6%;
+    }
+
+    .right {
+        margin-top: 36px;
+    }
+
+    .section-title1 {
+        font-size: 77%;
+        letter-spacing: 1px;
+    }
+
+    h4 {
+        font-size: 62%;
+        letter-spacing: 1px;
+    }
+
+    .p-right {
+        font-size: 60%;
+    }
+
+    .section-title {
+        font-size: 77%;
+        letter-spacing: 1px;
+    }
+
+    .icon-2 {
+        font-size: 60%;
+    }
+
+    .code {
+        font-size: 5.5px;
+    }
+
+    code {
+        margin-left: -27px;
+    }
+
+    .portfolio-bg {
+        width: 146.9px;
+        height: 79px;
+    }
+
+    .portfolio-about {
+        font-size: 49.8%;
+        height: 41px;
+    }
+
+    .section-title-about {
+        font-size: 77%;
+        letter-spacing: 1.5px;
+    }
+
+    .p-left {
+        font-size: 60%;
+        letter-spacing: 0.5px;
+    }
+
+    blockquote {
+        font-size: 60%;
+    }
+
+    .section-left-1 {
+        padding-bottom: 72%;
+    }
+
+    .section-left-2 {
+        margin-left: -11.9%;
+    }
+
+    .icon {
+        font-size: 59%;
+    }
+
+    .container-main {
+        height: 766px;
+    }
+
+    .container-footer {
+        height: 45px;
+    }
+
+    .year {
+        font-size: 48%;
+    }
+
+    .radius {
+        width: 16px;
+        height: 16px;
+    }
+}
